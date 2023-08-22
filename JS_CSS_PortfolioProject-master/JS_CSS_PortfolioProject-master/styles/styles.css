@@ -172,11 +172,12 @@ section {
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 90%;
+  height: 70%;
   width: 68%;
-  margin-left: 4rem;
+  margin-left: 10rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
+  clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
 }
 .header-content .left-header .image img {
   width: 100%;
@@ -192,7 +193,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 14rem;
 }
 .header-content .right-header .name {
   font-size: 3rem;
