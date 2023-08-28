@@ -193,7 +193,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 14rem;
+  padding-right: 5rem;
 }
 .header-content .right-header .name {
   font-size: 3rem;
@@ -962,4 +962,24 @@ section {
   }
 }
 
+/* Styles for article.html */
+.article-header {
+  background-color: var(--color-primary);
+  padding: 20px;
+  border-bottom: 2px solid var(--color-secondary);
+}
+
+.article-header h2 {
+  color: var(--color-secondary);
+}
+
+.article-header h2 .white-text {
+  color: var(--color-white);
+}
+
+.article-content {
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 20px;
+  border-radius: var(--br-sm-2);
+}
 /*# sourceMappingURL=styles.css.map */
